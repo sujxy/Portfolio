@@ -1,0 +1,277 @@
+html {
+    scroll-behavior : smooth ;
+}
+
+body{
+    margin : 0 ;
+    background-color :#fefaf6 ;
+    
+}
+
+h1{
+    margin: 0 ;
+}
+
+h2 {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 50px;
+    color : #FF9900;
+
+}
+
+p{
+    margin : 0;
+}
+
+hr {
+    position : absolute ;
+    width : 10%;
+    border-style : dotted;
+    border-width : 12px 0 0 0;
+    border-color : rgb(201, 247, 201);
+    
+}
+
+.para {
+    position : absolute ;
+    display : inline-block ;
+    font-family: 'Raleway';
+    font-weight: 500;
+    font-size: 28px;
+    color : rgb(100, 99, 99);
+    line-height: 1.4;
+    text-align : left ;
+    width : 675px;
+}
+
+.sub {
+    position : absolute ;
+    display : inline-block ;
+    font-family: 'Raleway',sans-serif;
+    font-weight: 500;
+    font-size: 40px;
+    color :  #9EEFF4;
+}
+/* top*/
+.top {
+    background-color : #fefaf6 ;
+    
+    position :absolute;
+    width : 100%;
+    height : 580px;
+}
+
+.top-img {
+    position : absolute ;
+    right : 50px;
+    width : 531px;
+    height : 573px ;
+}
+
+.top-hero {
+    font-family : "Sacramento",sans-serif ;
+    font-size : 110px;
+    color : rgb(255, 162, 0);
+    position:absolute;
+    left: 80px;
+    top: 173px;
+
+}  
+
+.top-text-up {
+    font-family: 'Montserrat', sans-serif;
+    position : absolute ;
+    top: 106px;
+    left: 80px;
+}
+
+.top-text-down {
+    font-size : 50px ; font-weight:100 ;
+    font-family : "Montserrat", sans-serif ;
+    color : rgb(143, 143, 143) ;
+    position : absolute ;
+    top: 428px;
+    left: 80px;
+}  
+
+.nav-bar {
+   
+    width : 100% ;
+    height : 0.5in ;
+    font-family : 'Raleway',sans-serif;
+    background-color :#faf4ee ;
+}
+
+/**about section*/
+
+.about-container {
+    text-align : center ;
+    width : 70%;
+    position : absolute ;
+    top : 765px;
+    left : 202px;
+}
+
+.about-img {
+    float:left;
+    width: 303.84px;
+    height: 301px;
+}
+
+.sub.hey{
+    top: 123px;
+    left: 332px;
+    
+}
+.para.about{
+    right: 1px;
+    top: 223px;
+    
+}
+
+.l1 {  
+    top: 692px;
+    left: 640px;  
+}
+
+.l2 {   
+    top: 1279px;
+    left: 640px;
+}
+
+.l3{
+    top : 2424px ;
+    left : 640px;
+}
+
+
+
+
+
+/* skills */
+
+.skills {
+    position : absolute ;
+    text-align : center ;
+    width : 70%;
+    top : 1352px;
+    left : 202px;
+}
+
+.skill-row {
+    height : 410px ;
+    margin : 20px 0 30px 0 ;
+}
+
+.para.skill1 {
+    top: 270px;
+    left: 14px;
+}
+
+ 
+.para.skill2 {
+    top: 692px;
+    right: 8px;
+}
+
+.skill-img1 {
+    float:right ;
+}
+.skill-img2 {
+    float : left ;
+}
+
+.sub.comm {
+    top: 150px;
+    left: 146px;
+}
+
+.sub.tech {
+    top: 575px;
+    right: 231px;
+}
+
+.contact {
+    position : absolute ;
+    text-align : center ;
+    width : 70%;
+    height : 280px;
+    top : 2500px;
+    left : 207px;
+    
+}
+.para.msg {
+    right: 107px;
+}
+
+
+.socials {
+    position : absolute ;
+    text-align : center ;
+    width : 100%;
+    height : 200px;
+    top : 2900px;
+    background-color: #FFE6CC;
+}
+
+a {
+    color: inherit;
+    text-decoration: inherit;
+  }
+
+a:hover {
+    color : #fdfdfd;
+}  
+
+.link1,.link2,.link3 {
+    position : absolute ;
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 30px;
+    color: #FFB973;
+    display : inline-block ;
+    width : 50px ; 
+    
+}
+
+.link1 {
+    top: 51px;
+    left: 365px;
+}
+.link2 {
+    top : 51px ;
+    left : 670px ;
+}
+.link3 {
+    top : 51px ;
+    right : 380px ;
+}
+
+.sign {
+    font-family : 'Allura',sans-serif ;
+    color : rgb(128, 125, 125) ;
+    margin-top : 160px;
+    font-size : 20px ;
+}
+
+.btn {
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: 'Montserrat',sans-serif;
+    color: #f7f7f7;
+    font-size: 20px;
+    background: #f694ff;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    position: absolute ;
+    top: 237px;
+    left: 430px;
+  }
+  
+  .btn:hover {
+    background: #fac2ff;
+    text-decoration: none;
+  }
